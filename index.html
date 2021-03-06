@@ -8,7 +8,7 @@
   <link rel="canonical" href="index.html" />
   <meta property="og:title" content="Home | Jarkol Technologies" />
   <meta property="og:url" content="https://www.jarkol.com/" />
-  <meta property="og:image" content="https://www.jarkol.com/img/im03.png" />
+  <meta property="og:image" content="https://www.jarkol.com/img/jarkol.png" />
   <meta property="og:site_name" content="website" />
   <meta property="og:type" content="website" />
   <meta name="author" content="Jarkol" />
@@ -19,8 +19,8 @@
     content="Más de 15 años de experiencia técnica en operaciones tanto en tierra como en alta mar en la industria petrolera" />
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/jarkol.png" rel="icon">
+  <link href="img/jarkol.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -34,7 +34,6 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.css" rel="stylesheet">
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -75,7 +74,7 @@
 
       <div id="logo" class="pull-left">
         <h1><a href="#body" class="scrollto">
-            <img width="200px" src="img/im04.png" alt="" title="" />
+            <img width="200px" src="img/logo-ori.png" alt="" title="" />
             <!--<img width="40px" src="img/im03-transparent.png"
               alt="" title="" />-->
           </a></h1>
@@ -97,7 +96,8 @@
               <li>
                 <a class="lang_selector trn" href="#" onclick="changeLang('es', event)" role="button"><img
                     src="img/mexico.png" height="20" alt=""><a class="trn" id="salt"
-                    onclick="changeLang('es', event)">Spanish</a></a></li>
+                    onclick="changeLang('es', event)">Spanish</a></a>
+              </li>
             </ul>
           </li>
         </ul>
@@ -610,12 +610,14 @@
               more popular.</p>
           </div>
           <div class="col-lg-4 text-center text-lg-right pb-5">
-            <a href="https://www.aaaimx.org/"><img src="https://www.aaaimx.org/img/sprites/aaaimx-transparent.png" width="200" alt=""></a>
+            <a href="https://www.aaaimx.org/"><img src="https://www.aaaimx.org/img/sprites/aaaimx-transparent.png"
+                width="200" alt=""></a>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 text-center text-lg-left d-none d-lg-block d-md-block pb-3 fund">
-            <a target="_blank" href="https://apoyoalajuventud.org/"><img src="img/fundacion.jpeg" width="250" alt=""></a>
+            <a target="_blank" href="https://apoyoalajuventud.org/"><img src="img/fundacion.jpeg" width="250"
+                alt=""></a>
           </div>
           <div class="col-lg-8 text-center text-lg-right ">
             <p class="cta-text trn">We care for the wellbeing of the community that will be in charge of leading to a
@@ -624,7 +626,8 @@
               discrimination accompanying them in the planning of their life project.</p>
           </div>
           <div class="col-sm-12 col-xs-10 text-center text-lg-left d-md-none d-lg-none fund">
-            <a target="_blank" href="https://apoyoalajuventud.org/"><img src="img/fundacion.jpeg" width="250" alt=""></a>
+            <a target="_blank" href="https://apoyoalajuventud.org/"><img src="img/fundacion.jpeg" width="250"
+                alt=""></a>
           </div>
           <div class="col-sm-6 text-center text-lg-left d-md-none d-lg-none fund"></div>
         </div>
@@ -660,7 +663,8 @@
             <div class="form">
               <div id="sendmessage" class="trn">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm" mailto="sales@jarkol.com">
+              <form action="mailto:rnovelo.cruz98@gmail.com" method="post" nctype="text/plain" role="form"
+                class="contactForm" mailto="sales@jarkol.com">
                 <div class="form-row">
                   <div class="form-group col-md-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -679,12 +683,12 @@
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  <textarea class="form-control" id="message" name="message" rows="5" data-rule="required"
                     data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="msg">
-                  <button type="submit" style="-webkit-appearance: caret; border-radius: 3px"
+                  <button onclick="sendEmail()" type="button" style="-webkit-appearance: caret; border-radius: 3px"
                     class="text-center pdf-btn trn">Send Message</button>
                 </div>
               </form>
@@ -740,7 +744,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; 2019 BY <strong>JARKOL TECHNOLOGIES S.A. DE C.V.</strong><br>
+        &copy; 2021 BY <strong>JARKOL TECHNOLOGIES S.A. DE C.V.</strong><br>
         <span class="trn">Powered by</span> <a href="http://aaaimx.com/" target="_blank">@aaaimx</a>
       </div>
     </div>
@@ -764,7 +768,20 @@
   <script src="translatejs/jquery.translate.js"></script>
   <script src="translatejs/main.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- <script src="contactform/contactform.js"></script> -->
+  <script>
+
+    function sendEmail() {
+      Email.send({
+        SecureToken: '9bae29bc-1cbc-41c5-a289-6156d9190086',
+        To: 'carlos.ceron@jarkol.com',
+        From: 'contact@aaaimx.org',
+        Subject: document.getElementById('subject').value,
+        Body: 'Nombre: ' + document.getElementById('name').value + '<br>Email: ' + document.getElementById('email').value + '<br>' + document.getElementById('message').value
+      }).then(message => alert('Mensaje enviado a carlos.ceron@jarkol.com'));
+    }
+  </script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
