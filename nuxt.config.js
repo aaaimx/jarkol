@@ -9,7 +9,7 @@ export default {
       {
         name: 'keywords',
         content:
-          'Engineering, Services, Ingeniería, Technology, Tecnología, jarckol, Jarkol Jarcol, pozos, Geotermia'
+          'Engineering, Services, Ingeniería, Technology, Tecnología, jarckol, Jarkol, Jarcol, pozos, Geotermia, Geothermal Tools, Herramientas de Geotermia, Geothermal Well Logging Tools, HPHT Well Logging, HPHT Looging Tools, Well Logging, Energy Consultancy, Consultoría Energética, Slickline, ULA, Wellhead Monitoring, Monitoreo en Cabezal de Pozo, Petrofísica, Procesamiento e Interpretación, Production Well Logging'
       },
       {
         hid: 'description',
@@ -33,7 +33,7 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         property: 'og:image',
-        content: 'https://www.jarkol.com/favicon.png'
+        content: 'https://www.jarkol.com/icon.png'
       },
       {
         hid: 'og:site_name',
@@ -63,8 +63,8 @@ export default {
       },
       { rel: 'dns-prefetch', href: '//fonts.googleapis.com' },
       { rel: 'canonical', href: 'index.html' },
-      { rel: 'icon', href: '/favicon.png' },
-      { rel: 'apple-touch-icon', href: '/favicon.png' }
+      { rel: 'icon', href: '/icon.png' },
+      { rel: 'apple-touch-icon', href: '/icon.png' }
     ],
     script: [
       {
