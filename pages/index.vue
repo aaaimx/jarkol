@@ -712,7 +712,7 @@ export default {
       },
       carousel: [
         require('@/assets/img/intro-carousel/43.jpg'),
-        require('@/assets/img/intro-carousel/8.jpg'),
+        require('@/assets/img/intro-carousel/7.jpg'),
         require('@/assets/img/intro-carousel/5.jpg'),
         require('@/assets/img/intro-carousel/7.jpg'),
         require('@/assets/img/intro-carousel/3.jpg'),
